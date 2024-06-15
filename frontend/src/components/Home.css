@@ -1,0 +1,89 @@
+.home-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .home-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .home-container button {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #7776B3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-container button:hover {
+    background-color: #7776B3;
+  }
+  
+
+
+.home-container {
+  position: relative;
+  background-image: url('https://i.pinimg.com/736x/64/b1/b4/64b1b43d8c7135f40e0f7962b6c8d63b.jpg');
+  max-width: 400px;
+  /* margin: 0 auto; */
+  padding: 90px;
+  background-size: cover;
+  margin-top: 90px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 10px 10px #7776B3;
+}
+
+
+.background-image {
+  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F11-most-aesthetic-wallpapers--634515035029322302%2F&psig=AOvVaw3viiYJKjcCYqgrQFFUIoCq&ust=1718562499646000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIjMo66e3oYDFQAAAAAdAAAAABAE');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  position: absolute; 
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: blur(2px);
+}
+
+.content {
+  position: relative;
+  z-index: 1; 
+  text-align: center;
+  padding: 20px;
+  
+}
+
+.content h1 {
+  font-size: 24px;
+  color: white;
+    margin-bottom: 20px;
+}
+
+.content button {
+  width: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #6a5b82;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.content button:hover {
+  background-color: #5d136b;
+}

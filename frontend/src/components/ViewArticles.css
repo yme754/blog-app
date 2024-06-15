@@ -1,0 +1,19 @@
+.articles-container {
+    padding: 20px;
+  }
+  
+  .article {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .article h2 {
+    margin-top: 0;
+  }
+.read{
+  background-color: #6a5b82;
+}
+.read button:hover {
+  background-color: #5d136b;
+}
